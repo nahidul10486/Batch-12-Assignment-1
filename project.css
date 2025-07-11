@@ -7,11 +7,53 @@
 
 
 h1{
-    color:blue
+    color:blue;
 }
 
 nav{
     display:flex;
     justify-content:space-between;
-    margin:10px auto;
+    max-width: 1000px;
+    margin:50px auto;
+    align-items: center;
+    height:10px;
+    
 }
+
+.button{
+    background-color: blue;
+    color:white;
+    padding:10px 20px;
+    border-radius:5px;
+    border:none;
+    cursor:pointer;
+    width:116px;
+    height:40px;
+    font-weight:bolder;
+}
+
+
+.button:hover{
+    background-color:lightgreen
+}
+
+
+
+nav{
+    background-image:url(./Assets/Hero-bg.png);
+    height:100px;
+
+}
+
+
+header{
+    display:flex;
+    height:560 px;
+    max-width: 1280px;
+    margin:0 auto;
+    justify-content: space-between;
+}
+
+
+
+
