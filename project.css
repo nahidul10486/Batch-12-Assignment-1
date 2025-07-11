@@ -10,3 +10,7 @@ h1{
     color:blue
 }
 
+nav{
+    display:flex;
+    justify-content:space-between;
+}
